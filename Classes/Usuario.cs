@@ -2,29 +2,24 @@ namespace Series
 {
     public class Usuario : EntidadeBase
     {
-        private Genero Genero {get; set;}   
-        private string Titulo {get; set;}   
-        private string Descricao {get; set;}   
-        private int Ano {get; set;}
+        private string Nome {get; set;}   
+        private string Email {get; set;}   
         private bool Excluido {get; set;}   
         
-    public Usuario(int id, Genero genero, string titulo, string descricao, int ano )
+    public Usuario(int id, string nome, string email)
     {
         this.Id = id;
-        this.Titulo = titulo;
-        this.Descricao = descricao;
-        this.Ano = ano;
+        this.Nome = nome;
+        this.Email = email;
         this.Excluido = false;
     }
 
     public override string ToString()
     {
         string retorno = "";
-        retorno += "Gênero: " + this.Genero;
-        retorno += "Título: " + this.Titulo;
-        retorno += "Descrição: " + this.Descricao;
-        retorno += "Ano: " + this.Ano;
-        retorno += "Excluido: " + this.Excluido;
+        retorno += "  Nome:  " + this.Nome + "\n";
+        retorno += "  E-mail:  " + this.Email + "\n";
+        retorno += "  Excluido:  " + this.Excluido + "\n";
         return retorno;
     }
 
@@ -32,9 +27,9 @@ namespace Series
     {
         return this.Id;
     }
-    public string retornaTitulo()
+    public string retornaNome()
     {
-        return this.Titulo;
+        return this.Nome;
     }
     public bool retornaExcluido()
     {

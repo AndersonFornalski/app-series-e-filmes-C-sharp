@@ -11,6 +11,7 @@ namespace Series
     public Filme(int id, Genero genero, string titulo, string descricao, int ano )
     {
         this.Id = id;
+        this.Genero = genero;
         this.Titulo = titulo;
         this.Descricao = descricao;
         this.Ano = ano;
@@ -20,10 +21,10 @@ namespace Series
     public override string ToString()
     {
         string retorno = "";
-        retorno += "Gênero: " + this.Genero;
-        retorno += "Título: " + this.Titulo;
-        retorno += "Descrição: " + this.Descricao;
-        retorno += "Ano: " + this.Ano;
+        retorno += "Gênero: " + this.Genero + "\n";
+        retorno += "Título: " + this.Titulo + "\n";
+        retorno += "Descrição: " + this.Descricao + "\n";
+        retorno += "Ano: " + this.Ano + "\n";
         retorno += "Excluido: " + this.Excluido;
         return retorno;
     }
