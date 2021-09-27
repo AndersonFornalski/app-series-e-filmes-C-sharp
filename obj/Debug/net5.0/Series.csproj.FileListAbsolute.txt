@@ -1,0 +1,16 @@
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/Series
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/Series.deps.json
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/Series.runtimeconfig.json
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/Series.runtimeconfig.dev.json
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/Series.dll
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/ref/Series.dll
+/home/anderson/Documents/c#projets/Series/bin/Debug/net5.0/Series.pdb
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.csproj.AssemblyReference.cache
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.GeneratedMSBuildEditorConfig.editorconfig
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.AssemblyInfoInputs.cache
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.AssemblyInfo.cs
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.csproj.CoreCompileInputs.cache
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.dll
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/ref/Series.dll
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.pdb
+/home/anderson/Documents/c#projets/Series/obj/Debug/net5.0/Series.genruntimeconfig.cache
